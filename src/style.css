@@ -23,7 +23,7 @@ body{
 
 }
 
-.header__nav{
+.registration__button , .header__nav {
   width: 126px;
   height: 52px;
   padding: 12px 20px;
@@ -31,6 +31,7 @@ body{
   box-sizing: border-box;
   background-color:#323232;
   color: #D3D4D8;
+  font-size: calc(3px + 1.3vw);
 }
 
 
@@ -41,12 +42,7 @@ body{
   margin: 5px;
 }
 
-input[type="text"] {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  all: unset;
-}
+
 input:focus {
   outline: none;
 }
@@ -58,16 +54,6 @@ input:focus {
 
 }
 
-.registration__button{
-  width: 126px;
-  height: 52px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  background-color:#323232;
-  color: #D3D4D8;
-
-}
 
 
 .reg__inputs{
@@ -127,15 +113,15 @@ main{
 .main__content__wrapper{
   display: flex;
   height: 5000px;
-  width: 60%;
-  background-color:red ;
+  width: calc(720px + 2.4vw);
+  background-color:#212121 ;
   justify-content: center;
 }
 
 
 .main__content{
   display: flex;
-  background-color: violet;
+  background-color:rgb(32, 32, 57) ;
   height: 100px;
   width: 100%;
     margin: 15px;
@@ -144,7 +130,7 @@ main{
   display: flex;
   justify-content: center;
   position: absolute;
-  left: 75%;
+  left: calc( 70% + 1.3vw);
 }
 
 .registration__block--opened{
